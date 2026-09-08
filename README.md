@@ -1,6 +1,9 @@
-# VeighNaAlpha-MultiFactor-ML-Research
-基于 VeighNa (vnpy‑alpha) 框架实现金融多因子完整投研流程，涵盖金融数据预处理、Alpha158 因子工程、多机器学习模型训练、回测仿真与风险收益指标分析。金融科技学术数据分析实践，不用于实盘投资交易
 # VeighNa - By Traders, For Traders, AI-Powered.
+
+<p align="center">
+  <img src ="https://vnpy.oss-cn-shanghai.aliyuncs.com/veighna-logo.png"/>
+</p>
+
 💬 Want to read this in **english** ? Go [**here**](README_ENG.md)
 
 <p align="center">
@@ -13,6 +16,8 @@
 
 VeighNa是一套基于Python的开源量化交易系统开发框架，在开源社区持续不断的贡献下一步步成长为多功能量化交易平台，自发布以来已经积累了众多来自金融机构或相关领域的用户，包括私募基金、证券公司、期货公司等。
 
+在使用VeighNa进行二次开发（策略、模块等）的过程中有任何疑问，请查看[**VeighNa项目文档**](https://www.vnpy.com/docs/cn/index.html)，如果无法解决请前往[**官方社区论坛**](https://www.vnpy.com/forum/)的【提问求助】板块寻求帮助，也欢迎在【经验分享】板块分享你的使用心得！
+
 **想要更便捷地上手期货量化交易？** VeighNa Fusion现已在合作期货公司上线，带来一站式CTA量化交易与智能投研体验：
 
 * **开箱即用**：通过合作期货公司申请开通权限，无需自行完成繁琐的接入测试
@@ -20,6 +25,12 @@ VeighNa是一套基于Python的开源量化交易系统开发框架，在开源�
 * **智策投研**：根据策略描述辅助梳理逻辑、生成代码，并衔接历史回测与参数优化流程
 
 阅读[产品介绍文章](https://mp.weixin.qq.com/s/VknqBMnR3tUpWoKuTA8V4A)或查看[VeighNa Fusion文档](https://www.vnpy.com/docs/cn/fusion/index.html)。
+
+如需咨询开通，请扫描下方二维码添加【Fusion小助手】：
+
+<p align="center">
+  <img src="https://vnpy.oss-cn-shanghai.aliyuncs.com/Fusion%E5%B0%8F%E5%8A%A9%E6%89%8B.png" width="250" alt="Fusion小助手">
+</p>
 
 ## AI-Powered
 
@@ -302,3 +313,43 @@ if __name__ == "__main__":
 
     python run.py
 
+## 贡献代码
+
+VeighNa使用Github托管其源代码，如果希望贡献代码请使用github的PR（Pull Request）的流程:
+
+1. [创建 Issue](https://github.com/vnpy/vnpy/issues/new) - 对于较大的改动（如新功能，大型重构等）建议先开issue讨论一下，较小的improvement（如文档改进，bugfix等）直接发PR即可
+
+2. Fork [VeighNa](https://github.com/vnpy/vnpy) - 点击右上角**Fork**按钮
+
+3. Clone你自己的fork: ```git clone https://github.com/$userid/vnpy.git```
+	* 如果你的fork已经过时，需要手动sync：[同步方法](https://help.github.com/articles/syncing-a-fork/)
+
+4. 从**dev**创建你自己的feature branch: ```git checkout -b $my_feature_branch dev```
+
+5. 在$my_feature_branch上修改并将修改push到你的fork上
+
+6. 创建从你的fork的$my_feature_branch分支到主项目的**dev**分支的[Pull Request] -  [在此](https://github.com/vnpy/vnpy/compare?expand=1)点击**compare across forks**，选择需要的fork和branch创建PR
+
+7. 等待review, 需要继续改进，或者被Merge!
+
+在提交代码的时候，请遵守以下规则，以提高代码质量：
+
+  * 使用[ruff](https://github.com/astral-sh/ruff)检查你的代码样式，确保没有error和warning。在项目根目录下运行```ruff check .```即可。
+  * 使用[mypy](https://github.com/python/mypy)进行静态类型检查，确保类型注解正确。在项目根目录下运行```mypy vnpy```即可。
+
+## 其他内容
+
+* [获取帮助](https://github.com/vnpy/vnpy/blob/dev/.github/SUPPORT.md)
+* [社区行为准则](https://github.com/vnpy/vnpy/blob/dev/.github/CODE_OF_CONDUCT.md)
+* [Issue模板](https://github.com/vnpy/vnpy/blob/dev/.github/ISSUE_TEMPLATE.md)
+* [PR模板](https://github.com/vnpy/vnpy/blob/dev/.github/PULL_REQUEST_TEMPLATE.md)
+
+**想要获取更多关于VeighNa开源社区的资讯？** 请扫描下方二维码添加小助手加入【VeighNa社区交流微信群】：
+
+<p align="center">
+  <img src="https://vnpy.oss-cn-shanghai.aliyuncs.com/github_wx.png" width="250" alt="VeighNa社区交流微信群">
+</p>
+
+## 版权说明
+
+MIT
