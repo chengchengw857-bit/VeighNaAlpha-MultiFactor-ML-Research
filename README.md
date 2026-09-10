@@ -24,11 +24,7 @@ VeighNa是一套基于Python的开源量化交易系统开发框架，在开源�
 
 阅读[产品介绍文章](https://mp.weixin.qq.com/s/VknqBMnR3tUpWoKuTA8V4A)或查看[VeighNa Fusion文档](https://www.vnpy.com/docs/cn/fusion/index.html)。
 
-如需咨询开通，请扫描下方二维码添加【Fusion小助手】：
 
-<p align="center">
-  <img src="https://vnpy.oss-cn-shanghai.aliyuncs.com/Fusion%E5%B0%8F%E5%8A%A9%E6%89%8B.png" width="250" alt="Fusion小助手">
-</p>
 
 ## AI-Powered
 
